@@ -1,0 +1,3 @@
+/home/simon/Windows/Users/lesis/Documents/ENSISA/2A/Semestre 1/Adéquation Logiciel Matériel/TP/tp1/phase2/app/build/CMakeFiles/rebuild_cache.dir
+/home/simon/Windows/Users/lesis/Documents/ENSISA/2A/Semestre 1/Adéquation Logiciel Matériel/TP/tp1/phase2/app/build/CMakeFiles/traitement.dir
+/home/simon/Windows/Users/lesis/Documents/ENSISA/2A/Semestre 1/Adéquation Logiciel Matériel/TP/tp1/phase2/app/build/CMakeFiles/edit_cache.dir
