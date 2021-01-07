@@ -13,5 +13,6 @@ void append_to_file(int argc, const char *src, const char *str) {
 	for (int i=0; i < strlen(str); i++) {
 		if (putc(str[i],s) != str[i]) exit_error("Erreur sur putc");
 	}
+	printf("Ajout de << %s >> dans le fichier << %s >>", str, src);
 	fclose(s);
 }
