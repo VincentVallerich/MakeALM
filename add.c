@@ -1,6 +1,6 @@
 #include "add.h"
 
-void append_to_file(int argc, const char *src) {
+void append_to_file(int argc, const char *src, const char *str) {
 	FILE *s;
 	unsigned int c;
 	char msg[80];
@@ -10,9 +10,8 @@ void append_to_file(int argc, const char *src) {
 		sprintf(msg,"Ouverture du fichier « %s »",src);
   		exit_error(msg);
 	}
-	rewind(s);
-	while ((c=getc(s)) != EOF) {
-		if (putc(c,s) != c) exit_error("Erreur sur putc");
+	for (int i=0; i < strlen(str); i++) {
+		if (putc(str[i],s) != str[i]) exit_error("Erreur sur putc");
 	}
 	fclose(s);
 }
