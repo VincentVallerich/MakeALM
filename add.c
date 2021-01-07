@@ -14,6 +14,6 @@ void append_to_file(int argc, char *argv[]) {
 	while ((c=getc(s)) !=EOF) {
 		if (putc(c,s) != c) exit_error("Erreur sur putc");
 	}
-	if (ferror(sf)) exit_error("Erreur lors de la copie");
+	if (ferror(s)) exit_error("Erreur lors de la copie");
 	fclose(s);
 }
