@@ -1,1 +1,0 @@
-/usr/bin/cc   -rdynamic CMakeFiles/traitement.dir/home/adduser/tp1/phase1/app/src/debug.c.o CMakeFiles/traitement.dir/home/adduser/tp1/phase1/app/src/cpstd.c.o CMakeFiles/traitement.dir/home/adduser/tp1/phase1/app/src/add.c.o CMakeFiles/traitement.dir/home/adduser/tp1/phase1/app/src/main.c.o  -o traitement 
