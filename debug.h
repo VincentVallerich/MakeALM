@@ -1,6 +1,8 @@
 #ifndef _TD_LIB_H
 #define _TD_LIB_H
 
+#include <stdlib.h>
+
 /*
  * Définit deux macros de debuggage et une fonction de 
  * sortie sur erreur :

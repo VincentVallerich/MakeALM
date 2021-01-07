@@ -1,23 +1,22 @@
 #include "cpstd.h"
 
-void usage(int argc, char *argv[]) {
+void usage(int argc, const char *argv[]) {
 	printf("Usage : %s source dest\n",argv[0]);
 	exit(EXIT_FAILURE);
 }
 
-void cp_file(int argc, char *argv[]) {
+void cp_file(int argc, const char *src, const char *dest) {
 	FILE *sfrom,*sto;
 	unsigned int c;
 	char msg[80];
  
-	if (argc != 3) usage(argc,argv);
 	printf("Copie par fonctions de librairie standard\n");
-	if ((sfrom=fopen(argv[1],"r"))==NULL) {
-		sprintf(msg,"Ouverture du fichier « %s »",argv[1]);
+	if ((sfrom=fopen(src,"r"))==NULL) {
+		sprintf(msg,"Ouverture du fichier « %s »",src);
   		exit_error(msg);
 	}
-	if ((sto=fopen(argv[2],"w"))==NULL) {
-		sprintf(msg,"Ouverture du fichier « %s »",argv[2]);
+	if ((sto=fopen(dest,"w"))==NULL) {
+		sprintf(msg,"Ouverture du fichier « %s »",dest);
   		exit_error(msg);
 	}
 	while ((c=getc(sfrom)) !=EOF) {
