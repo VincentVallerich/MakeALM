@@ -1,0 +1,3 @@
+/home/adduser/tp1/phase1/app/build/CMakeFiles/rebuild_cache.dir
+/home/adduser/tp1/phase1/app/build/CMakeFiles/traitement.dir
+/home/adduser/tp1/phase1/app/build/CMakeFiles/edit_cache.dir
