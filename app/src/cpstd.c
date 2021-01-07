@@ -1,4 +1,4 @@
-#include "cpstd.h"
+#include "../header/cpstd.h"
 
 void usage(int argc, const char *argv[]) {
 	printf("Usage : %s source dest\n",argv[0]);
@@ -19,7 +19,7 @@ void cp_file(int argc, const char *src, const char *dest) {
 		sprintf(msg,"Ouverture du fichier « %s »",dest);
   		exit_error(msg);
 	}
-	while ((c=getc(sfrom)) !=EOF) {
+	while ((c=getc(sfrom)) != EOF) {
 		if (putc(c,sto) != c) exit_error("Erreur sur putc");
 	}
 	if (ferror(sfrom) || ferror(sto)) exit_error("Erreur lors de la copie");

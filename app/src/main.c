@@ -1,5 +1,5 @@
-#include "cpstd.h"
-#include "add.h"
+#include "../header/cpstd.h"
+#include "../header/add.h"
 
 int main(int argc, char const *argv[])
 {
