@@ -1,4 +1,4 @@
-#include "add.h"
+#include "../include/header/add.h"
 
 void append_to_file(int argc, const char *src, const char *str) {
 	FILE *s;

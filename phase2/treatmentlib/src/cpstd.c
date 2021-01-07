@@ -1,4 +1,4 @@
-#include "cpstd.h"
+#include "../include/header/cpstd.h"
 
 void usage(int argc, const char *argv[]) {
 	printf("Usage : %s source dest\n",argv[0]);
