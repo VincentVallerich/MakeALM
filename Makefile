@@ -1,3 +1,4 @@
+all: main
 main: add.o cpstd.o debug.o main.o
 	gcc -o main add.o cpstd.o debug.o main.o
 add.o: add.c add.h 
@@ -8,3 +9,7 @@ debug.o: debug.c debug.h
 	gcc -c -o debug.o debug.c
 main.o: main.c add.h cpstd.h
 	gcc -c -o main.o main.c
+clean: 
+	rm -rf *.o 
+cleanall: clean 
+	rm -f main
