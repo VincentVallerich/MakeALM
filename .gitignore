@@ -2,3 +2,5 @@
 *.sh
 main
 t
+/phase1/app/build/
+/phase2/treatmentlib/CMakeFiles/
