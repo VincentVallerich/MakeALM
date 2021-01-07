@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtraitement.a  CMakeFiles/traitement.dir/src/add.c.o CMakeFiles/traitement.dir/src/cpstd.c.o CMakeFiles/traitement.dir/src/debug.c.o CMakeFiles/traitement.dir/src/main.c.o
+/usr/bin/ranlib libtraitement.a

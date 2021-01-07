@@ -1,4 +1,4 @@
-# Install script for directory: /home/adduser/tp1/phase1/phase2/treatmentlib
+# Install script for directory: /home/simon/Windows/Users/lesis/Documents/ENSISA/2A/Semestre 1/Adéquation Logiciel Matériel/TP/tp1/phase2/treatmentlib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,26 +39,30 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/lib/libconcatenation.a")
+   "/usr/lib/libtraitement.a")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/lib" TYPE STATIC_LIBRARY FILES "/home/adduser/tp1/phase1/phase2/treatmentlib/libconcatenation.a")
+file(INSTALL DESTINATION "/usr/lib" TYPE STATIC_LIBRARY FILES "/home/simon/Windows/Users/lesis/Documents/ENSISA/2A/Semestre 1/Adéquation Logiciel Matériel/TP/tp1/phase2/treatmentlib/build/libtraitement.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/include/concat.h")
+   "/usr/include/add.h;/usr/include/cpstd.h;/usr/include/debug.h")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/include" TYPE FILE FILES "/home/adduser/tp1/phase1/phase2/treatmentlib/concat.h")
+file(INSTALL DESTINATION "/usr/include" TYPE FILE FILES
+    "/home/simon/Windows/Users/lesis/Documents/ENSISA/2A/Semestre 1/Adéquation Logiciel Matériel/TP/tp1/phase2/treatmentlib/add.h"
+    "/home/simon/Windows/Users/lesis/Documents/ENSISA/2A/Semestre 1/Adéquation Logiciel Matériel/TP/tp1/phase2/treatmentlib/cpstd.h"
+    "/home/simon/Windows/Users/lesis/Documents/ENSISA/2A/Semestre 1/Adéquation Logiciel Matériel/TP/tp1/phase2/treatmentlib/debug.h"
+    )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -69,5 +73,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/adduser/tp1/phase1/phase2/treatmentlib/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/simon/Windows/Users/lesis/Documents/ENSISA/2A/Semestre 1/Adéquation Logiciel Matériel/TP/tp1/phase2/treatmentlib/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,0 +1,7 @@
+/home/simon/Windows/Users/lesis/Documents/ENSISA/2A/Semestre 1/Adéquation Logiciel Matériel/TP/tp1/phase2/treatmentlib/build/CMakeFiles/install/strip.dir
+/home/simon/Windows/Users/lesis/Documents/ENSISA/2A/Semestre 1/Adéquation Logiciel Matériel/TP/tp1/phase2/treatmentlib/build/CMakeFiles/edit_cache.dir
+/home/simon/Windows/Users/lesis/Documents/ENSISA/2A/Semestre 1/Adéquation Logiciel Matériel/TP/tp1/phase2/treatmentlib/build/CMakeFiles/traitement.dir
+/home/simon/Windows/Users/lesis/Documents/ENSISA/2A/Semestre 1/Adéquation Logiciel Matériel/TP/tp1/phase2/treatmentlib/build/CMakeFiles/rebuild_cache.dir
+/home/simon/Windows/Users/lesis/Documents/ENSISA/2A/Semestre 1/Adéquation Logiciel Matériel/TP/tp1/phase2/treatmentlib/build/CMakeFiles/list_install_components.dir
+/home/simon/Windows/Users/lesis/Documents/ENSISA/2A/Semestre 1/Adéquation Logiciel Matériel/TP/tp1/phase2/treatmentlib/build/CMakeFiles/install/local.dir
+/home/simon/Windows/Users/lesis/Documents/ENSISA/2A/Semestre 1/Adéquation Logiciel Matériel/TP/tp1/phase2/treatmentlib/build/CMakeFiles/install.dir
