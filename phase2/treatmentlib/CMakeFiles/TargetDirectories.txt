@@ -1,7 +1,0 @@
-/home/adduser/tp1/phase1/phase2/treatmentlib/CMakeFiles/install/strip.dir
-/home/adduser/tp1/phase1/phase2/treatmentlib/CMakeFiles/edit_cache.dir
-/home/adduser/tp1/phase1/phase2/treatmentlib/CMakeFiles/concatenation.dir
-/home/adduser/tp1/phase1/phase2/treatmentlib/CMakeFiles/rebuild_cache.dir
-/home/adduser/tp1/phase1/phase2/treatmentlib/CMakeFiles/list_install_components.dir
-/home/adduser/tp1/phase1/phase2/treatmentlib/CMakeFiles/install/local.dir
-/home/adduser/tp1/phase1/phase2/treatmentlib/CMakeFiles/install.dir

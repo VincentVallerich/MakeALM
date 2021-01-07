@@ -1,2 +1,0 @@
-/usr/bin/ar qc libconcatenation.a  CMakeFiles/concatenation.dir/src/add.c.o CMakeFiles/concatenation.dir/src/cpstd.c.o CMakeFiles/concatenation.dir/src/debug.c.o CMakeFiles/concatenation.dir/src/main.c.o
-/usr/bin/ranlib libconcatenation.a
